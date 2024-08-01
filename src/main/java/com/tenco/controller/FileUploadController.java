@@ -101,7 +101,7 @@ public class FileUploadController extends HttpServlet {
 		response.getWriter().print("사용자가 올린 파일명 : " + originFileName);
 		response.getWriter().print("<br>");
 		response.getWriter().print("서버에 저장된 파일명 : " + uniqueFileName);
-
+		System.out.println("git");
 	}
 
 }
